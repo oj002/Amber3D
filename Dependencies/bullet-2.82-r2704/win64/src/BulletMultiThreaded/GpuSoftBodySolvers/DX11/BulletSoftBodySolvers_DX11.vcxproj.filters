@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\dev\projects\games_graphics\Amber3D\Dependencies\bullet-2.82-r2704\src\BulletMultiThreaded\GpuSoftBodySolvers\DX11\btSoftBodySolver_DX11.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\projects\games_graphics\Amber3D\Dependencies\bullet-2.82-r2704\src\BulletMultiThreaded\GpuSoftBodySolvers\DX11\btSoftBodySolver_DX11SIMDAware.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\dev\projects\games_graphics\Amber3D\Dependencies\bullet-2.82-r2704\src\BulletMultiThreaded\GpuSoftBodySolvers\DX11\btSoftBodySolver_DX11.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\projects\games_graphics\Amber3D\Dependencies\bullet-2.82-r2704\src\BulletMultiThreaded\GpuSoftBodySolvers\DX11\btSoftBodySolver_DX11SIMDAware.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\projects\games_graphics\Amber3D\Dependencies\bullet-2.82-r2704\src\BulletMultiThreaded\GpuSoftBodySolvers\Shared\btSoftBodySolverData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\projects\games_graphics\Amber3D\Dependencies\bullet-2.82-r2704\src\BulletMultiThreaded\GpuSoftBodySolvers\DX11\btSoftBodySolverVertexData_DX11.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\projects\games_graphics\Amber3D\Dependencies\bullet-2.82-r2704\src\BulletMultiThreaded\GpuSoftBodySolvers\DX11\btSoftBodySolverTriangleData_DX11.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\projects\games_graphics\Amber3D\Dependencies\bullet-2.82-r2704\src\BulletMultiThreaded\GpuSoftBodySolvers\DX11\btSoftBodySolverLinkData_DX11.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\projects\games_graphics\Amber3D\Dependencies\bullet-2.82-r2704\src\BulletMultiThreaded\GpuSoftBodySolvers\DX11\btSoftBodySolverLinkData_DX11SIMDAware.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\projects\games_graphics\Amber3D\Dependencies\bullet-2.82-r2704\src\BulletMultiThreaded\GpuSoftBodySolvers\DX11\btSoftBodySolverBuffer_DX11.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\projects\games_graphics\Amber3D\Dependencies\bullet-2.82-r2704\src\BulletMultiThreaded\GpuSoftBodySolvers\DX11\btSoftBodySolverVertexBuffer_DX11.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\dev\projects\games_graphics\Amber3D\Dependencies\bullet-2.82-r2704\src\BulletMultiThreaded\GpuSoftBodySolvers\DX11\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <FXCompile Include="C:\dev\projects\games_graphics\Amber3D\Dependencies\bullet-2.82-r2704\src\BulletMultiThreaded\GpuSoftBodySolvers\DX11\HLSL\OutputToVertexArray.hlsl" />
+    <FXCompile Include="C:\dev\projects\games_graphics\Amber3D\Dependencies\bullet-2.82-r2704\src\BulletMultiThreaded\GpuSoftBodySolvers\DX11\HLSL\UpdateNormals.hlsl" />
+    <FXCompile Include="C:\dev\projects\games_graphics\Amber3D\Dependencies\bullet-2.82-r2704\src\BulletMultiThreaded\GpuSoftBodySolvers\DX11\HLSL\Integrate.hlsl" />
+    <FXCompile Include="C:\dev\projects\games_graphics\Amber3D\Dependencies\bullet-2.82-r2704\src\BulletMultiThreaded\GpuSoftBodySolvers\DX11\HLSL\UpdatePositions.hlsl" />
+    <FXCompile Include="C:\dev\projects\games_graphics\Amber3D\Dependencies\bullet-2.82-r2704\src\BulletMultiThreaded\GpuSoftBodySolvers\DX11\HLSL\UpdateNodes.hlsl" />
+    <FXCompile Include="C:\dev\projects\games_graphics\Amber3D\Dependencies\bullet-2.82-r2704\src\BulletMultiThreaded\GpuSoftBodySolvers\DX11\HLSL\ComputeBounds.hlsl" />
+    <FXCompile Include="C:\dev\projects\games_graphics\Amber3D\Dependencies\bullet-2.82-r2704\src\BulletMultiThreaded\GpuSoftBodySolvers\DX11\HLSL\SolvePositions.hlsl" />
+    <FXCompile Include="C:\dev\projects\games_graphics\Amber3D\Dependencies\bullet-2.82-r2704\src\BulletMultiThreaded\GpuSoftBodySolvers\DX11\HLSL\SolvePositionsSIMDBatched.hlsl" />
+    <FXCompile Include="C:\dev\projects\games_graphics\Amber3D\Dependencies\bullet-2.82-r2704\src\BulletMultiThreaded\GpuSoftBodySolvers\DX11\HLSL\solveCollisionsAndUpdateVelocities.hlsl" />
+    <FXCompile Include="C:\dev\projects\games_graphics\Amber3D\Dependencies\bullet-2.82-r2704\src\BulletMultiThreaded\GpuSoftBodySolvers\DX11\HLSL\solveCollisionsAndUpdateVelocitiesSIMDBatched.hlsl" />
+    <FXCompile Include="C:\dev\projects\games_graphics\Amber3D\Dependencies\bullet-2.82-r2704\src\BulletMultiThreaded\GpuSoftBodySolvers\DX11\HLSL\UpdatePositionsFromVelocities.hlsl" />
+    <FXCompile Include="C:\dev\projects\games_graphics\Amber3D\Dependencies\bullet-2.82-r2704\src\BulletMultiThreaded\GpuSoftBodySolvers\DX11\HLSL\ApplyForces.hlsl" />
+    <FXCompile Include="C:\dev\projects\games_graphics\Amber3D\Dependencies\bullet-2.82-r2704\src\BulletMultiThreaded\GpuSoftBodySolvers\DX11\HLSL\PrepareLinks.hlsl" />
+    <FXCompile Include="C:\dev\projects\games_graphics\Amber3D\Dependencies\bullet-2.82-r2704\src\BulletMultiThreaded\GpuSoftBodySolvers\DX11\HLSL\VSolveLinks.hlsl" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{95239D86-2B7B-3648-BD8F-E5D865A33750}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{6791F7CA-DA54-3433-B3F9-A99BBA131606}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

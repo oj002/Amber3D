@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\dev\projects\games_graphics\Amber3D\Dependencies\bullet-2.82-r2704\Demos\OpenGL\GLDebugFont.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\projects\games_graphics\Amber3D\Dependencies\bullet-2.82-r2704\Demos\OpenGL\GL_DialogDynamicsWorld.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\projects\games_graphics\Amber3D\Dependencies\bullet-2.82-r2704\Demos\OpenGL\GL_DialogWindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\projects\games_graphics\Amber3D\Dependencies\bullet-2.82-r2704\Demos\OpenGL\GL_ShapeDrawer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\projects\games_graphics\Amber3D\Dependencies\bullet-2.82-r2704\Demos\OpenGL\GL_Simplex1to4.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\projects\games_graphics\Amber3D\Dependencies\bullet-2.82-r2704\Demos\OpenGL\GLDebugDrawer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\projects\games_graphics\Amber3D\Dependencies\bullet-2.82-r2704\Demos\OpenGL\RenderTexture.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\projects\games_graphics\Amber3D\Dependencies\bullet-2.82-r2704\Demos\OpenGL\DemoApplication.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\projects\games_graphics\Amber3D\Dependencies\bullet-2.82-r2704\Demos\OpenGL\GlutDemoApplication.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\projects\games_graphics\Amber3D\Dependencies\bullet-2.82-r2704\Demos\OpenGL\GlutStuff.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\projects\games_graphics\Amber3D\Dependencies\bullet-2.82-r2704\Demos\OpenGL\stb_image.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\projects\games_graphics\Amber3D\Dependencies\bullet-2.82-r2704\Demos\OpenGL\Win32DemoApplication.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\dev\projects\games_graphics\Amber3D\Dependencies\bullet-2.82-r2704\Demos\OpenGL\GLDebugFont.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\projects\games_graphics\Amber3D\Dependencies\bullet-2.82-r2704\Demos\OpenGL\GL_DialogDynamicsWorld.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\projects\games_graphics\Amber3D\Dependencies\bullet-2.82-r2704\Demos\OpenGL\GL_DialogWindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\projects\games_graphics\Amber3D\Dependencies\bullet-2.82-r2704\Demos\OpenGL\GL_ShapeDrawer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\projects\games_graphics\Amber3D\Dependencies\bullet-2.82-r2704\Demos\OpenGL\GL_Simplex1to4.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\projects\games_graphics\Amber3D\Dependencies\bullet-2.82-r2704\Demos\OpenGL\GLDebugDrawer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\projects\games_graphics\Amber3D\Dependencies\bullet-2.82-r2704\Demos\OpenGL\RenderTexture.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\projects\games_graphics\Amber3D\Dependencies\bullet-2.82-r2704\Demos\OpenGL\DemoApplication.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\projects\games_graphics\Amber3D\Dependencies\bullet-2.82-r2704\Demos\OpenGL\GlutDemoApplication.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\projects\games_graphics\Amber3D\Dependencies\bullet-2.82-r2704\Demos\OpenGL\GlutStuff.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\projects\games_graphics\Amber3D\Dependencies\bullet-2.82-r2704\Demos\OpenGL\stb_image.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\projects\games_graphics\Amber3D\Dependencies\bullet-2.82-r2704\Demos\OpenGL\Win32DemoApplication.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\dev\projects\games_graphics\Amber3D\Dependencies\bullet-2.82-r2704\Demos\OpenGL\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{95239D86-2B7B-3648-BD8F-E5D865A33750}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{6791F7CA-DA54-3433-B3F9-A99BBA131606}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

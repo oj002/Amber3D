@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Demos">
+      <UniqueIdentifier>{79FD0E4B-FF3C-8B4B-B447-405B4B3C59F0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Demos\VehicleDemo">
+      <UniqueIdentifier>{B9DEEDA3-31D8-1941-A3EC-6EF656243FF0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Demos\VehicleDemo\VehicleDemo.h">
+      <Filter>Demos\VehicleDemo</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Demos\VehicleDemo\heightfield128x128.cpp">
+      <Filter>Demos\VehicleDemo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Demos\VehicleDemo\main.cpp">
+      <Filter>Demos\VehicleDemo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Demos\VehicleDemo\VehicleDemo.cpp">
+      <Filter>Demos\VehicleDemo</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="..\bullet.rc" />
+  </ItemGroup>
+</Project>

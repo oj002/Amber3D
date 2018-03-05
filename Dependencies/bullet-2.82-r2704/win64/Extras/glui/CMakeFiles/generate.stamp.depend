@@ -1,0 +1,12 @@
+# CMake generation dependency list for this directory.
+C:/dev/projects/games_graphics/Amber3D/Dependencies/bullet-2.82-r2704/Extras/glui/CMakeLists.txt
+C:/Program Files/CMake/share/cmake-3.11/Modules/FindGLU.cmake
+C:/Program Files/CMake/share/cmake-3.11/Modules/FindOpenGL.cmake
+C:/Program Files/CMake/share/cmake-3.11/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-3.11/Modules/FindPackageMessage.cmake
+C:/Program Files/CMake/share/cmake-3.11/Modules/FindGLUT.cmake
+C:/Program Files/CMake/share/cmake-3.11/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-3.11/Modules/FindPackageMessage.cmake
+C:/Program Files/CMake/share/cmake-3.11/Modules/FindOpenGL.cmake
+C:/Program Files/CMake/share/cmake-3.11/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-3.11/Modules/FindPackageMessage.cmake

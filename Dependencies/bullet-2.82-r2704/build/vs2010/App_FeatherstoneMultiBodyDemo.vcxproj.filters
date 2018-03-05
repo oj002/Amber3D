@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Demos">
+      <UniqueIdentifier>{4756805A-CECB-BE49-A734-327689872704}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Demos\FeatherstoneMultiBodyDemo">
+      <UniqueIdentifier>{92545689-0323-7549-8F75-84C10BC0C6F9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Demos\FeatherstoneMultiBodyDemo\FeatherstoneMultiBodyDemo.h">
+      <Filter>Demos\FeatherstoneMultiBodyDemo</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Demos\FeatherstoneMultiBodyDemo\FeatherstoneMultiBodyDemo.cpp">
+      <Filter>Demos\FeatherstoneMultiBodyDemo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Demos\FeatherstoneMultiBodyDemo\main.cpp">
+      <Filter>Demos\FeatherstoneMultiBodyDemo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Demos\FeatherstoneMultiBodyDemo\Win32FeatherstoneMultiBodyDemo.cpp">
+      <Filter>Demos\FeatherstoneMultiBodyDemo</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="..\bullet.rc" />
+  </ItemGroup>
+</Project>

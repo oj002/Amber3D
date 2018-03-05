@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Demos">
+      <UniqueIdentifier>{9CF3F6D6-AD7E-5F4D-A1D2-B3BE93DC7B1E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Demos\ConvexDecompositionDemo">
+      <UniqueIdentifier>{16CDAC90-E00D-7741-A35C-B4C2C27F0002}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Demos\ConvexDecompositionDemo\ConvexDecompositionDemo.h">
+      <Filter>Demos\ConvexDecompositionDemo</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Demos\ConvexDecompositionDemo\ConvexDecompositionDemo.cpp">
+      <Filter>Demos\ConvexDecompositionDemo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Demos\ConvexDecompositionDemo\main.cpp">
+      <Filter>Demos\ConvexDecompositionDemo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Demos\ConvexDecompositionDemo\Win32ConvexDecompositionDemo.cpp">
+      <Filter>Demos\ConvexDecompositionDemo</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="..\bullet.rc" />
+  </ItemGroup>
+</Project>

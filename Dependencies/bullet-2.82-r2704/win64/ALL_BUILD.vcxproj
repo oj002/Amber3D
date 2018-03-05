@@ -1,0 +1,451 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{A640A971-27B4-36AC-B944-EFA9F9479732}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\dev\projects\games_graphics\Amber3D\Dependencies\bullet-2.82-r2704\Glut;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\dev\projects\games_graphics\Amber3D\Dependencies\bullet-2.82-r2704\Glut;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\dev\projects\games_graphics\Amber3D\Dependencies\bullet-2.82-r2704\Glut;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\dev\projects\games_graphics\Amber3D\Dependencies\bullet-2.82-r2704\Glut;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\dev\projects\games_graphics\Amber3D\Dependencies\bullet-2.82-r2704\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/dev/projects/games_graphics/Amber3D/Dependencies/bullet-2.82-r2704/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/dev/projects/games_graphics/Amber3D/Dependencies/bullet-2.82-r2704 -BC:/dev/projects/games_graphics/Amber3D/Dependencies/bullet-2.82-r2704/win64 --check-stamp-file C:/dev/projects/games_graphics/Amber3D/Dependencies/bullet-2.82-r2704/win64/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/dev/projects/games_graphics/Amber3D/Dependencies/bullet-2.82-r2704/CMakeLists.txt;C:\dev\projects\games_graphics\Amber3D\Dependencies\bullet-2.82-r2704\CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeSystem.cmake.in;C:\dev\projects\games_graphics\Amber3D\Dependencies\bullet-2.82-r2704\win64\CMakeFiles\3.11.0-rc2\CMakeSystem.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeDetermineCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\GNU-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCCompiler.cmake.in;C:\dev\projects\games_graphics\Amber3D\Dependencies\bullet-2.82-r2704\win64\CMakeFiles\3.11.0-rc2\CMakeCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeDetermineCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Platform\Windows-Determine-CXX.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCXXCompiler.cmake.in;C:\dev\projects\games_graphics\Amber3D\Dependencies\bullet-2.82-r2704\win64\CMakeFiles\3.11.0-rc2\CMakeCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeRCCompiler.cmake.in;C:\dev\projects\games_graphics\Amber3D\Dependencies\bullet-2.82-r2704\win64\CMakeFiles\3.11.0-rc2\CMakeRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeTestRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeTestCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCCompilerABI.c;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCCompiler.cmake.in;C:\dev\projects\games_graphics\Amber3D\Dependencies\bullet-2.82-r2704\win64\CMakeFiles\3.11.0-rc2\CMakeCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeTestCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCXXCompilerABI.cpp;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Internal\FeatureTesting.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\MSVC-CXX-FeatureTests.cmake;C:\dev\projects\games_graphics\Amber3D\Dependencies\bullet-2.82-r2704\win64\CMakeFiles\feature_tests.cxx;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCXXCompiler.cmake.in;C:\dev\projects\games_graphics\Amber3D\Dependencies\bullet-2.82-r2704\win64\CMakeFiles\3.11.0-rc2\CMakeCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\FindGLU.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\FindGLUT.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\FindPackageMessage.cmake;C:\dev\projects\games_graphics\Amber3D\Dependencies\bullet-2.82-r2704\BulletConfig.cmake.in;C:\dev\projects\games_graphics\Amber3D\Dependencies\bullet-2.82-r2704\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\dev\projects\games_graphics\Amber3D\Dependencies\bullet-2.82-r2704\win64\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/dev/projects/games_graphics/Amber3D/Dependencies/bullet-2.82-r2704/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/dev/projects/games_graphics/Amber3D/Dependencies/bullet-2.82-r2704 -BC:/dev/projects/games_graphics/Amber3D/Dependencies/bullet-2.82-r2704/win64 --check-stamp-file C:/dev/projects/games_graphics/Amber3D/Dependencies/bullet-2.82-r2704/win64/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/dev/projects/games_graphics/Amber3D/Dependencies/bullet-2.82-r2704/CMakeLists.txt;C:\dev\projects\games_graphics\Amber3D\Dependencies\bullet-2.82-r2704\CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeSystem.cmake.in;C:\dev\projects\games_graphics\Amber3D\Dependencies\bullet-2.82-r2704\win64\CMakeFiles\3.11.0-rc2\CMakeSystem.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeDetermineCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\GNU-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCCompiler.cmake.in;C:\dev\projects\games_graphics\Amber3D\Dependencies\bullet-2.82-r2704\win64\CMakeFiles\3.11.0-rc2\CMakeCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeDetermineCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Platform\Windows-Determine-CXX.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCXXCompiler.cmake.in;C:\dev\projects\games_graphics\Amber3D\Dependencies\bullet-2.82-r2704\win64\CMakeFiles\3.11.0-rc2\CMakeCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeRCCompiler.cmake.in;C:\dev\projects\games_graphics\Amber3D\Dependencies\bullet-2.82-r2704\win64\CMakeFiles\3.11.0-rc2\CMakeRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeTestRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeTestCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCCompilerABI.c;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCCompiler.cmake.in;C:\dev\projects\games_graphics\Amber3D\Dependencies\bullet-2.82-r2704\win64\CMakeFiles\3.11.0-rc2\CMakeCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeTestCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCXXCompilerABI.cpp;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Internal\FeatureTesting.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\MSVC-CXX-FeatureTests.cmake;C:\dev\projects\games_graphics\Amber3D\Dependencies\bullet-2.82-r2704\win64\CMakeFiles\feature_tests.cxx;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCXXCompiler.cmake.in;C:\dev\projects\games_graphics\Amber3D\Dependencies\bullet-2.82-r2704\win64\CMakeFiles\3.11.0-rc2\CMakeCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\FindGLU.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\FindGLUT.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\FindPackageMessage.cmake;C:\dev\projects\games_graphics\Amber3D\Dependencies\bullet-2.82-r2704\BulletConfig.cmake.in;C:\dev\projects\games_graphics\Amber3D\Dependencies\bullet-2.82-r2704\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\dev\projects\games_graphics\Amber3D\Dependencies\bullet-2.82-r2704\win64\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/dev/projects/games_graphics/Amber3D/Dependencies/bullet-2.82-r2704/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/dev/projects/games_graphics/Amber3D/Dependencies/bullet-2.82-r2704 -BC:/dev/projects/games_graphics/Amber3D/Dependencies/bullet-2.82-r2704/win64 --check-stamp-file C:/dev/projects/games_graphics/Amber3D/Dependencies/bullet-2.82-r2704/win64/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/dev/projects/games_graphics/Amber3D/Dependencies/bullet-2.82-r2704/CMakeLists.txt;C:\dev\projects\games_graphics\Amber3D\Dependencies\bullet-2.82-r2704\CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeSystem.cmake.in;C:\dev\projects\games_graphics\Amber3D\Dependencies\bullet-2.82-r2704\win64\CMakeFiles\3.11.0-rc2\CMakeSystem.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeDetermineCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\GNU-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCCompiler.cmake.in;C:\dev\projects\games_graphics\Amber3D\Dependencies\bullet-2.82-r2704\win64\CMakeFiles\3.11.0-rc2\CMakeCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeDetermineCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Platform\Windows-Determine-CXX.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCXXCompiler.cmake.in;C:\dev\projects\games_graphics\Amber3D\Dependencies\bullet-2.82-r2704\win64\CMakeFiles\3.11.0-rc2\CMakeCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeRCCompiler.cmake.in;C:\dev\projects\games_graphics\Amber3D\Dependencies\bullet-2.82-r2704\win64\CMakeFiles\3.11.0-rc2\CMakeRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeTestRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeTestCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCCompilerABI.c;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCCompiler.cmake.in;C:\dev\projects\games_graphics\Amber3D\Dependencies\bullet-2.82-r2704\win64\CMakeFiles\3.11.0-rc2\CMakeCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeTestCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCXXCompilerABI.cpp;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Internal\FeatureTesting.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\MSVC-CXX-FeatureTests.cmake;C:\dev\projects\games_graphics\Amber3D\Dependencies\bullet-2.82-r2704\win64\CMakeFiles\feature_tests.cxx;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCXXCompiler.cmake.in;C:\dev\projects\games_graphics\Amber3D\Dependencies\bullet-2.82-r2704\win64\CMakeFiles\3.11.0-rc2\CMakeCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\FindGLU.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\FindGLUT.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\FindPackageMessage.cmake;C:\dev\projects\games_graphics\Amber3D\Dependencies\bullet-2.82-r2704\BulletConfig.cmake.in;C:\dev\projects\games_graphics\Amber3D\Dependencies\bullet-2.82-r2704\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\dev\projects\games_graphics\Amber3D\Dependencies\bullet-2.82-r2704\win64\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/dev/projects/games_graphics/Amber3D/Dependencies/bullet-2.82-r2704/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/dev/projects/games_graphics/Amber3D/Dependencies/bullet-2.82-r2704 -BC:/dev/projects/games_graphics/Amber3D/Dependencies/bullet-2.82-r2704/win64 --check-stamp-file C:/dev/projects/games_graphics/Amber3D/Dependencies/bullet-2.82-r2704/win64/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/dev/projects/games_graphics/Amber3D/Dependencies/bullet-2.82-r2704/CMakeLists.txt;C:\dev\projects\games_graphics\Amber3D\Dependencies\bullet-2.82-r2704\CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeSystem.cmake.in;C:\dev\projects\games_graphics\Amber3D\Dependencies\bullet-2.82-r2704\win64\CMakeFiles\3.11.0-rc2\CMakeSystem.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeDetermineCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\GNU-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCCompiler.cmake.in;C:\dev\projects\games_graphics\Amber3D\Dependencies\bullet-2.82-r2704\win64\CMakeFiles\3.11.0-rc2\CMakeCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeDetermineCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Platform\Windows-Determine-CXX.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCXXCompiler.cmake.in;C:\dev\projects\games_graphics\Amber3D\Dependencies\bullet-2.82-r2704\win64\CMakeFiles\3.11.0-rc2\CMakeCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeRCCompiler.cmake.in;C:\dev\projects\games_graphics\Amber3D\Dependencies\bullet-2.82-r2704\win64\CMakeFiles\3.11.0-rc2\CMakeRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeTestRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeTestCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCCompilerABI.c;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCCompiler.cmake.in;C:\dev\projects\games_graphics\Amber3D\Dependencies\bullet-2.82-r2704\win64\CMakeFiles\3.11.0-rc2\CMakeCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeTestCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCXXCompilerABI.cpp;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Internal\FeatureTesting.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\MSVC-CXX-FeatureTests.cmake;C:\dev\projects\games_graphics\Amber3D\Dependencies\bullet-2.82-r2704\win64\CMakeFiles\feature_tests.cxx;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCXXCompiler.cmake.in;C:\dev\projects\games_graphics\Amber3D\Dependencies\bullet-2.82-r2704\win64\CMakeFiles\3.11.0-rc2\CMakeCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\FindGLU.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\FindGLUT.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\FindPackageMessage.cmake;C:\dev\projects\games_graphics\Amber3D\Dependencies\bullet-2.82-r2704\BulletConfig.cmake.in;C:\dev\projects\games_graphics\Amber3D\Dependencies\bullet-2.82-r2704\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\dev\projects\games_graphics\Amber3D\Dependencies\bullet-2.82-r2704\win64\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\dev\projects\games_graphics\Amber3D\Dependencies\bullet-2.82-r2704\win64\ZERO_CHECK.vcxproj">
+      <Project>{A3818F3A-182B-3E1B-9700-53F3B2A98F0A}</Project>
+      <Name>ZERO_CHECK</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\projects\games_graphics\Amber3D\Dependencies\bullet-2.82-r2704\win64\Demos\AllBulletDemos\AppAllBulletDemos.vcxproj">
+      <Project>{E99A1721-7D56-336D-BDA1-27575C018EC1}</Project>
+      <Name>AppAllBulletDemos</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\projects\games_graphics\Amber3D\Dependencies\bullet-2.82-r2704\win64\Demos\BasicDemo\AppBasicDemo.vcxproj">
+      <Project>{C42BCF43-3B6C-33FA-9042-C71CC930298F}</Project>
+      <Name>AppBasicDemo</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\projects\games_graphics\Amber3D\Dependencies\bullet-2.82-r2704\win64\Demos\Benchmarks\AppBenchmarks.vcxproj">
+      <Project>{3F7AAA47-8DE0-3856-8C04-A3804AA82A69}</Project>
+      <Name>AppBenchmarks</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\projects\games_graphics\Amber3D\Dependencies\bullet-2.82-r2704\win64\Demos\Box2dDemo\AppBox2dDemo.vcxproj">
+      <Project>{6004AF29-A78E-3E09-83B2-A70A809EE7B2}</Project>
+      <Name>AppBox2dDemo</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\projects\games_graphics\Amber3D\Dependencies\bullet-2.82-r2704\win64\Demos\BspDemo\AppBspPhysicsDemo.vcxproj">
+      <Project>{A5E91B91-2D51-3B02-BE4D-A0E57D9EE614}</Project>
+      <Name>AppBspPhysicsDemo</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\projects\games_graphics\Amber3D\Dependencies\bullet-2.82-r2704\win64\Demos\BulletXmlImportDemo\AppBulletXmlImportDemo.vcxproj">
+      <Project>{A0E9B95D-5DA8-3C2B-9009-111047ABFC41}</Project>
+      <Name>AppBulletXmlImportDemo</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\projects\games_graphics\Amber3D\Dependencies\bullet-2.82-r2704\win64\Demos\CcdPhysicsDemo\AppCcdPhysicsDemo.vcxproj">
+      <Project>{7780D99C-158B-3F82-980D-745C708EE890}</Project>
+      <Name>AppCcdPhysicsDemo</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\projects\games_graphics\Amber3D\Dependencies\bullet-2.82-r2704\win64\Demos\CharacterDemo\AppCharacterDemo.vcxproj">
+      <Project>{59EB2881-AACF-3EE6-A5A5-700EA3A08D2A}</Project>
+      <Name>AppCharacterDemo</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\projects\games_graphics\Amber3D\Dependencies\bullet-2.82-r2704\win64\Demos\CollisionDemo\AppCollisionDemo.vcxproj">
+      <Project>{1177B093-86D2-3217-AA8E-E318F6276A25}</Project>
+      <Name>AppCollisionDemo</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\projects\games_graphics\Amber3D\Dependencies\bullet-2.82-r2704\win64\Demos\CollisionInterfaceDemo\AppCollisionInterfaceDemo.vcxproj">
+      <Project>{863C1EB0-78E3-36F5-9A97-4D99EC3C2C96}</Project>
+      <Name>AppCollisionInterfaceDemo</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\projects\games_graphics\Amber3D\Dependencies\bullet-2.82-r2704\win64\Demos\ConcaveConvexcastDemo\AppConcaveConvexCastDemo.vcxproj">
+      <Project>{0D7CE3E2-93CC-38DC-A40E-4C029940569F}</Project>
+      <Name>AppConcaveConvexCastDemo</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\projects\games_graphics\Amber3D\Dependencies\bullet-2.82-r2704\win64\Demos\ConcaveDemo\AppConcaveDemo.vcxproj">
+      <Project>{790C50A4-BD20-38F0-9956-E938142E266E}</Project>
+      <Name>AppConcaveDemo</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\projects\games_graphics\Amber3D\Dependencies\bullet-2.82-r2704\win64\Demos\ConcaveRaycastDemo\AppConcaveRayCastDemo.vcxproj">
+      <Project>{ECCA3E9D-BB2A-3FBC-9C62-F54D893E9FDE}</Project>
+      <Name>AppConcaveRayCastDemo</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\projects\games_graphics\Amber3D\Dependencies\bullet-2.82-r2704\win64\Demos\ConstraintDemo\AppConstraintDemo.vcxproj">
+      <Project>{3844FE23-8A5B-3B2F-92C5-D0F45E2B30AD}</Project>
+      <Name>AppConstraintDemo</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\projects\games_graphics\Amber3D\Dependencies\bullet-2.82-r2704\win64\Demos\ContinuousConvexCollision\AppContinuousConvexCollisionDemo.vcxproj">
+      <Project>{D8769D4D-2B49-3603-8066-7749F6C4DC57}</Project>
+      <Name>AppContinuousConvexCollisionDemo</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\projects\games_graphics\Amber3D\Dependencies\bullet-2.82-r2704\win64\Demos\ConvexDecompositionDemo\AppConvexDecompositionDemo.vcxproj">
+      <Project>{9D8AB70E-E371-35EF-93A5-D037BC3AC432}</Project>
+      <Name>AppConvexDecompositionDemo</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\projects\games_graphics\Amber3D\Dependencies\bullet-2.82-r2704\win64\Demos\ConvexHullDistance\AppConvexHullDistanceDemo.vcxproj">
+      <Project>{FAA3D584-C2D9-30F6-AB70-6FE4167FFB46}</Project>
+      <Name>AppConvexHullDistanceDemo</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\projects\games_graphics\Amber3D\Dependencies\bullet-2.82-r2704\win64\Demos\DX11ClothDemo\AppDX11ClothDemo.vcxproj">
+      <Project>{5CC9B9F2-229A-3184-9DA5-2671B8A2F4AD}</Project>
+      <Name>AppDX11ClothDemo</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\projects\games_graphics\Amber3D\Dependencies\bullet-2.82-r2704\win64\Demos\DoublePrecisionDemo\AppDoublePrecisionDemo.vcxproj">
+      <Project>{541F10FC-539D-3306-8A83-5F3E73BB5228}</Project>
+      <Name>AppDoublePrecisionDemo</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\projects\games_graphics\Amber3D\Dependencies\bullet-2.82-r2704\win64\Demos\FeatherstoneMultiBodyDemo\AppFeatherstoneMultiBodyDemo.vcxproj">
+      <Project>{1C06F8B5-CFB1-3F88-9C8F-AE8D32D63515}</Project>
+      <Name>AppFeatherstoneMultiBodyDemo</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\projects\games_graphics\Amber3D\Dependencies\bullet-2.82-r2704\win64\Demos\ForkLiftDemo\AppForkLiftDemo.vcxproj">
+      <Project>{C3AA4ED3-5058-347E-9B5F-376CF3722D88}</Project>
+      <Name>AppForkLiftDemo</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\projects\games_graphics\Amber3D\Dependencies\bullet-2.82-r2704\win64\Demos\FractureDemo\AppFractureDemo.vcxproj">
+      <Project>{D243CA07-69C3-3B5E-8356-FE5E8E719219}</Project>
+      <Name>AppFractureDemo</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\projects\games_graphics\Amber3D\Dependencies\bullet-2.82-r2704\win64\Demos\GenericJointDemo\AppGenericJointDemo.vcxproj">
+      <Project>{88CA3AF9-F906-3A45-8D41-505C7F696B7D}</Project>
+      <Name>AppGenericJointDemo</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\projects\games_graphics\Amber3D\Dependencies\bullet-2.82-r2704\win64\Demos\GyroscopicDemo\AppGyroscopicDemo.vcxproj">
+      <Project>{664EF9DD-553B-3360-9035-136A71DBAA7C}</Project>
+      <Name>AppGyroscopicDemo</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\projects\games_graphics\Amber3D\Dependencies\bullet-2.82-r2704\win64\Demos\HelloWorld\AppHelloWorld.vcxproj">
+      <Project>{920BF283-C070-39A0-9785-490BDF9388A6}</Project>
+      <Name>AppHelloWorld</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\projects\games_graphics\Amber3D\Dependencies\bullet-2.82-r2704\win64\Demos\InternalEdgeDemo\AppInternalEdgeDemo.vcxproj">
+      <Project>{AD4971CD-31DD-37C8-AF7B-21EB511D6DD1}</Project>
+      <Name>AppInternalEdgeDemo</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\projects\games_graphics\Amber3D\Dependencies\bullet-2.82-r2704\win64\Demos\GjkConvexCastDemo\AppLinearConvexCastDemo.vcxproj">
+      <Project>{70DB3239-80A9-352B-8724-3EC1CEC091C5}</Project>
+      <Name>AppLinearConvexCastDemo</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\projects\games_graphics\Amber3D\Dependencies\bullet-2.82-r2704\win64\Demos\DynamicControlDemo\AppMotorDemo.vcxproj">
+      <Project>{4C4585AC-3812-3728-BC53-BD89FE6172C7}</Project>
+      <Name>AppMotorDemo</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\projects\games_graphics\Amber3D\Dependencies\bullet-2.82-r2704\win64\Demos\MovingConcaveDemo\AppMovingConcaveDemo.vcxproj">
+      <Project>{7749C891-83CD-3EB6-BD09-2DC767F64FEB}</Project>
+      <Name>AppMovingConcaveDemo</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\projects\games_graphics\Amber3D\Dependencies\bullet-2.82-r2704\win64\Demos\MultiMaterialDemo\AppMultiMaterialDemo.vcxproj">
+      <Project>{44E7BBA8-D9D8-3B57-B916-0ACEC171A12E}</Project>
+      <Name>AppMultiMaterialDemo</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\projects\games_graphics\Amber3D\Dependencies\bullet-2.82-r2704\win64\Demos\MultiThreadedDemo\AppMultiThreadedDemo.vcxproj">
+      <Project>{DDA6CFAA-2ECD-312A-AA82-54ABF00CC962}</Project>
+      <Name>AppMultiThreadedDemo</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\projects\games_graphics\Amber3D\Dependencies\bullet-2.82-r2704\win64\Demos\OpenCLClothDemo\AMD\AppOpenCLClothDemo_AMD.vcxproj">
+      <Project>{DBE92EED-CDD9-3148-9E4E-2F24BD1A5606}</Project>
+      <Name>AppOpenCLClothDemo_AMD</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\projects\games_graphics\Amber3D\Dependencies\bullet-2.82-r2704\win64\Demos\OpenCLClothDemo\Intel\AppOpenCLClothDemo_Intel.vcxproj">
+      <Project>{35241ABF-13BA-3985-A2E8-470F8DCD8213}</Project>
+      <Name>AppOpenCLClothDemo_Intel</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\projects\games_graphics\Amber3D\Dependencies\bullet-2.82-r2704\win64\Demos\OpenCLClothDemo\MiniCL\AppOpenCLClothDemo_Mini.vcxproj">
+      <Project>{B33A390B-CC0A-31E2-A2AA-86DD05CA1428}</Project>
+      <Name>AppOpenCLClothDemo_Mini</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\projects\games_graphics\Amber3D\Dependencies\bullet-2.82-r2704\win64\Demos\OpenCLClothDemo\NVidia\AppOpenCLClothDemo_NVidia.vcxproj">
+      <Project>{A2309A16-596C-3B8C-A86F-DB7278AD3573}</Project>
+      <Name>AppOpenCLClothDemo_NVidia</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\projects\games_graphics\Amber3D\Dependencies\bullet-2.82-r2704\win64\Demos\RagdollDemo\AppRagdollDemo.vcxproj">
+      <Project>{8278BE7A-D6F2-3DF1-8A13-8B0E7F124E25}</Project>
+      <Name>AppRagdollDemo</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\projects\games_graphics\Amber3D\Dependencies\bullet-2.82-r2704\win64\Demos\RaytestDemo\AppRaytestDemo.vcxproj">
+      <Project>{B1ED4296-F190-3DE3-B79B-E1BD061DED84}</Project>
+      <Name>AppRaytestDemo</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\projects\games_graphics\Amber3D\Dependencies\bullet-2.82-r2704\win64\Demos\Raytracer\AppRaytracer.vcxproj">
+      <Project>{40FD3C7D-4957-37E1-B00F-86220513CBCB}</Project>
+      <Name>AppRaytracer</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\projects\games_graphics\Amber3D\Dependencies\bullet-2.82-r2704\win64\Demos\RollingFrictionDemo\AppRollingFrictionDemo.vcxproj">
+      <Project>{D122F25B-BCAD-350F-B373-6362CCE59B3C}</Project>
+      <Name>AppRollingFrictionDemo</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\projects\games_graphics\Amber3D\Dependencies\bullet-2.82-r2704\win64\Demos\SerializeDemo\AppSerializeDemo.vcxproj">
+      <Project>{3DDD704D-4384-3160-94F6-7F22C33D6863}</Project>
+      <Name>AppSerializeDemo</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\projects\games_graphics\Amber3D\Dependencies\bullet-2.82-r2704\win64\Demos\SerializeDemo\AMD\AppSerializeDemo_AMD.vcxproj">
+      <Project>{9B1561C7-96D4-3D91-B872-2C7612A20551}</Project>
+      <Name>AppSerializeDemo_AMD</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\projects\games_graphics\Amber3D\Dependencies\bullet-2.82-r2704\win64\Demos\SimplexDemo\AppSimplexDemo.vcxproj">
+      <Project>{3837EACA-8E5C-349A-9F75-B828D1CAE66D}</Project>
+      <Name>AppSimplexDemo</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\projects\games_graphics\Amber3D\Dependencies\bullet-2.82-r2704\win64\Demos\SliderConstraintDemo\AppSliderConstraintDemo.vcxproj">
+      <Project>{28D8500E-1DFC-3F83-B5EA-ABF99E9E868D}</Project>
+      <Name>AppSliderConstraintDemo</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\projects\games_graphics\Amber3D\Dependencies\bullet-2.82-r2704\win64\Demos\SoftDemo\AppSoftBodyDemo.vcxproj">
+      <Project>{0656705C-1C96-3B2A-9792-F34C5FF0F254}</Project>
+      <Name>AppSoftBodyDemo</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\projects\games_graphics\Amber3D\Dependencies\bullet-2.82-r2704\win64\Demos\ThreadingDemo\AppThreadingDemo.vcxproj">
+      <Project>{A960CD5C-BCDC-35A7-96FE-2560F17E3ABB}</Project>
+      <Name>AppThreadingDemo</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\projects\games_graphics\Amber3D\Dependencies\bullet-2.82-r2704\win64\Demos\UserCollisionAlgorithm\AppUserCollisionAlgorithm.vcxproj">
+      <Project>{B07F5A5F-003F-395B-B8B1-0359B6958F0F}</Project>
+      <Name>AppUserCollisionAlgorithm</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\projects\games_graphics\Amber3D\Dependencies\bullet-2.82-r2704\win64\Demos\VectorAdd_OpenCL\AMD\AppVectorAdd_AMD.vcxproj">
+      <Project>{EEA2CDFF-7F65-318C-8376-80B07F2E2E77}</Project>
+      <Name>AppVectorAdd_AMD</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\projects\games_graphics\Amber3D\Dependencies\bullet-2.82-r2704\win64\Demos\VectorAdd_OpenCL\MiniCL\AppVectorAdd_Mini.vcxproj">
+      <Project>{27F87C5F-7439-37C2-96F4-12FED871445E}</Project>
+      <Name>AppVectorAdd_Mini</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\projects\games_graphics\Amber3D\Dependencies\bullet-2.82-r2704\win64\Demos\VectorAdd_OpenCL\NVidia\AppVectorAdd_NVidia.vcxproj">
+      <Project>{F899CE1F-64F9-3E8F-83B9-FA0EBAF116C5}</Project>
+      <Name>AppVectorAdd_NVidia</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\projects\games_graphics\Amber3D\Dependencies\bullet-2.82-r2704\win64\Demos\VehicleDemo\AppVehicleDemo.vcxproj">
+      <Project>{A78D88E9-D92B-33A7-81C9-CA9079A62019}</Project>
+      <Name>AppVehicleDemo</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\projects\games_graphics\Amber3D\Dependencies\bullet-2.82-r2704\win64\Demos\VoronoiFractureDemo\AppVoronoiFractureDemo.vcxproj">
+      <Project>{F9D16217-7524-33DD-950E-ABE457CDDD12}</Project>
+      <Name>AppVoronoiFractureDemo</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\projects\games_graphics\Amber3D\Dependencies\bullet-2.82-r2704\win64\src\BulletCollision\BulletCollision.vcxproj">
+      <Project>{AE98500B-C0B0-3A57-B7F2-1508F601B2E7}</Project>
+      <Name>BulletCollision</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\projects\games_graphics\Amber3D\Dependencies\bullet-2.82-r2704\win64\src\BulletDynamics\BulletDynamics.vcxproj">
+      <Project>{C29CDC0D-721F-31D5-8A3F-E159D0DF55CA}</Project>
+      <Name>BulletDynamics</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\projects\games_graphics\Amber3D\Dependencies\bullet-2.82-r2704\win64\Extras\Serialize\BulletFileLoader\BulletFileLoader.vcxproj">
+      <Project>{442315CA-74E7-31F6-BE62-7DDC6D56ECA4}</Project>
+      <Name>BulletFileLoader</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\projects\games_graphics\Amber3D\Dependencies\bullet-2.82-r2704\win64\src\BulletMultiThreaded\BulletMultiThreaded.vcxproj">
+      <Project>{7FEAF46D-C3E7-375A-B20C-BB2A97F31F51}</Project>
+      <Name>BulletMultiThreaded</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\projects\games_graphics\Amber3D\Dependencies\bullet-2.82-r2704\win64\src\BulletSoftBody\BulletSoftBody.vcxproj">
+      <Project>{D39FBD58-2870-3D66-9BC4-AE15ADFF2374}</Project>
+      <Name>BulletSoftBody</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\projects\games_graphics\Amber3D\Dependencies\bullet-2.82-r2704\win64\src\BulletMultiThreaded\GpuSoftBodySolvers\DX11\BulletSoftBodySolvers_DX11.vcxproj">
+      <Project>{2F098D1A-A738-3508-AF4C-183D6F3714DB}</Project>
+      <Name>BulletSoftBodySolvers_DX11</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\projects\games_graphics\Amber3D\Dependencies\bullet-2.82-r2704\win64\src\BulletMultiThreaded\GpuSoftBodySolvers\OpenCL\AMD\BulletSoftBodySolvers_OpenCL_AMD.vcxproj">
+      <Project>{4B415D87-23B0-32BE-B4AF-4D444DA93BC7}</Project>
+      <Name>BulletSoftBodySolvers_OpenCL_AMD</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\projects\games_graphics\Amber3D\Dependencies\bullet-2.82-r2704\win64\src\BulletMultiThreaded\GpuSoftBodySolvers\OpenCL\Intel\BulletSoftBodySolvers_OpenCL_Intel.vcxproj">
+      <Project>{AE6148F6-10B3-30A5-B89F-8FB9DB6007B9}</Project>
+      <Name>BulletSoftBodySolvers_OpenCL_Intel</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\projects\games_graphics\Amber3D\Dependencies\bullet-2.82-r2704\win64\src\BulletMultiThreaded\GpuSoftBodySolvers\OpenCL\MiniCL\BulletSoftBodySolvers_OpenCL_Mini.vcxproj">
+      <Project>{57B3C140-ECF6-3A86-A9D3-996E487A9BFC}</Project>
+      <Name>BulletSoftBodySolvers_OpenCL_Mini</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\projects\games_graphics\Amber3D\Dependencies\bullet-2.82-r2704\win64\src\BulletMultiThreaded\GpuSoftBodySolvers\OpenCL\NVidia\BulletSoftBodySolvers_OpenCL_NVidia.vcxproj">
+      <Project>{B9058E25-2C32-3FB1-B647-969418106E0F}</Project>
+      <Name>BulletSoftBodySolvers_OpenCL_NVidia</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\projects\games_graphics\Amber3D\Dependencies\bullet-2.82-r2704\win64\Extras\Serialize\BulletWorldImporter\BulletWorldImporter.vcxproj">
+      <Project>{3E752DC7-33B6-33C5-B427-201300CD72D8}</Project>
+      <Name>BulletWorldImporter</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\projects\games_graphics\Amber3D\Dependencies\bullet-2.82-r2704\win64\Extras\Serialize\BulletXmlWorldImporter\BulletXmlWorldImporter.vcxproj">
+      <Project>{75FAE61D-1499-3414-908D-E228D815A3C6}</Project>
+      <Name>BulletXmlWorldImporter</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\projects\games_graphics\Amber3D\Dependencies\bullet-2.82-r2704\win64\Extras\ConvexDecomposition\ConvexDecomposition.vcxproj">
+      <Project>{246C2D1E-1B06-3176-9676-0202866C4098}</Project>
+      <Name>ConvexDecomposition</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\projects\games_graphics\Amber3D\Dependencies\bullet-2.82-r2704\win64\Extras\GIMPACTUtils\GIMPACTUtils.vcxproj">
+      <Project>{DB727DCF-658A-36D4-AC82-724C785A25F9}</Project>
+      <Name>GIMPACTUtils</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\projects\games_graphics\Amber3D\Dependencies\bullet-2.82-r2704\win64\Extras\glui\GLUI.vcxproj">
+      <Project>{7171E6B7-2553-3D76-999D-53E5CF481CF4}</Project>
+      <Name>GLUI</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\projects\games_graphics\Amber3D\Dependencies\bullet-2.82-r2704\win64\Extras\HACD\HACD.vcxproj">
+      <Project>{3C198005-0292-3972-A31F-8E8653382CE6}</Project>
+      <Name>HACD</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\projects\games_graphics\Amber3D\Dependencies\bullet-2.82-r2704\win64\src\LinearMath\LinearMath.vcxproj">
+      <Project>{6390452B-A3EC-3A73-A2F5-6479193B9B96}</Project>
+      <Name>LinearMath</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\projects\games_graphics\Amber3D\Dependencies\bullet-2.82-r2704\win64\src\MiniCL\MiniCL.vcxproj">
+      <Project>{36A85D36-AC5F-389B-B278-F1DC54E66096}</Project>
+      <Name>MiniCL</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\projects\games_graphics\Amber3D\Dependencies\bullet-2.82-r2704\win64\Demos\OpenGL\OpenGLSupport.vcxproj">
+      <Project>{6C841480-45D1-3887-B0A3-C74DDA71F707}</Project>
+      <Name>OpenGLSupport</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

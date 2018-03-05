@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\dev\projects\games_graphics\Amber3D\Dependencies\bullet-2.82-r2704\win64\CMakeFiles\68e8081c44aac2fc9e514059cc193c51\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{73F0DEA2-CDE4-38F1-B61E-DE49A60DDB55}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
